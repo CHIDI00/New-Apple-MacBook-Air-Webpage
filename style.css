@@ -409,8 +409,8 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   padding: 80px 0;
   /* background-color: #000; */
 }
@@ -420,6 +420,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   width: 1000px;
+  margin: auto;
 }
 
 .section__start h3 {
@@ -435,6 +436,7 @@ body {
   align-items: center;
   width: 1000px;
   padding: 10px 0;
+  margin: auto;
 }
 
 .your__choice__your__air h1 {
@@ -460,17 +462,92 @@ body {
   justify-content: center;
   align-items: center;
   width: 1000px;
-  padding: 20px 0;
+  padding: 30px 0;
+  margin: auto;
 }
 
 .video__content p {
   font-size: 2.5rem;
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.3;
   color: #8a8888;
 }
 
 .video__content p .black__text {
   color: #000;
+}
+
+.image__section-1 {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.image__section-1 img {
+  width: 100%;
+}
+
+.image__section-1__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  margin: 15px auto;
+}
+
+.image__section-1__content p {
+  font-size: 2.3rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  line-height: 1;
+  color: #8a8888;
+}
+
+.image__section-1__content p .black__text {
+  color: #000;
+}
+
+.color__design__types {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  margin: 15px auto;
+  gap: 20px;
+  /* background-color: red; */
+}
+
+.color__design__types .color__type-section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 49%;
+  gap: 20px;
+  background-color: #f1f0f0;
+  /* background-color: rgb(12, 12, 108); */
+}
+
+.color__type-section1 img {
+  width: 80%;
+}
+
+.color__type-section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 49%;
+  height: 100%;
+  background-color: #f1f0f0;
+  /* background-color: green; */
+}
+
+.color__type-section2 img {
+  width: 70%;
+  /* object-fit: contain; */
 }
