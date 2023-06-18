@@ -428,3 +428,25 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #000;
 }
+
+.your__choice__your__air {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 1000px;
+  padding: 10px 0;
+}
+
+.your__choice__your__air h1 {
+  color: #242424;
+  font-size: 7rem;
+  line-height: 1;
+  font-family: 'Roboto', sans-serif;
+}
+
+.video__section-1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
