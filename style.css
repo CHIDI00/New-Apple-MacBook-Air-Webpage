@@ -339,7 +339,7 @@ body {
 .name__size-container h1 span {
   color: #a19b9b;
 }
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .name__size-container {
     padding: 7px 0;
   }
@@ -372,7 +372,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .container h1 {
     font-size: 3rem;
   }
@@ -391,7 +391,7 @@ body {
   color: #232222;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .container p {
     font-size: 2.2rem;
     text-align: left
@@ -478,7 +478,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .your__choice__your__air h1 {
     font-size: 4rem;
   }
@@ -517,7 +517,7 @@ body {
   color: #000;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .video__content p {
     font-size: 2rem;
   }
@@ -557,7 +557,7 @@ body {
   color: #000;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .image__section-2__content p {
     font-size: 1.9rem;
     line-height: 1.2;
@@ -587,7 +587,7 @@ body {
   /* margin: auto; */
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .color__type-section1 {
     width: 100%;
   }
@@ -628,7 +628,7 @@ body {
   /* height: 100%; */
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .color__type-section2 {
     width: 100%;
   }
@@ -682,7 +682,7 @@ body {
   align-items: center;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .color-section-inner-container {
     width: 70%;
   }
@@ -831,3 +831,73 @@ body {
 .video__section-3 video {
   width: 100%;
 }
+
+.m1__performance {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+  width: 1000px;
+  max-width: 90%;
+  /* background-color: #2360e2; */
+}
+
+.performance_mx {
+  width: 250px;
+  border-right: 1px solid #938e8e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.performance__and__batteryLife {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 40px;
+  padding: 0 40px;
+}
+
+.performance__and__batteryLife h1 {
+  font-size: 1.9rem;
+  line-height: 1.1;
+  color: #a09a9a;
+}
+
+.performance__and__batteryLife h1 .bigText {
+  font-size: 7.3rem;
+  color: #2c2b2b;
+}
+
+@media (max-width: 450px) {
+  .m1__performance {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .performance_mx {
+    width: 100%;
+    border-right: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  .performance__and__batteryLife {
+    width: 100%;
+    display: block;
+    padding: 20px 0;
+  }
+
+  .performance__and__batteryLife h1 .bigText {
+    font-size: 5rem;
+  }
+  .performance__and__batteryLife h1 {
+    padding: 20px 0;
+  }
+}
+
