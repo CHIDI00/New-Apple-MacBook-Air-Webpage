@@ -517,7 +517,7 @@ body {
   align-items: center;
   width: 1000px;
   margin: 15px auto;
-  gap: 20px;
+  /* gap: 20px; */
   /* background-color: red; */
 }
 
@@ -528,8 +528,7 @@ body {
   align-items: center;
   width: 49%;
   gap: 20px;
-  background-color: #f1f0f0;
-  /* background-color: rgb(12, 12, 108); */
+  /* background-color: #f9f9f9; */
 }
 
 .color__type-section1 img {
@@ -543,11 +542,9 @@ body {
   align-items: center;
   width: 49%;
   height: 100%;
-  background-color: #f1f0f0;
-  /* background-color: green; */
+  background-color: #f9f9f9;
 }
 
 .color__type-section2 img {
-  width: 70%;
-  /* object-fit: contain; */
+  width: 60%;
 }
