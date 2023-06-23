@@ -8,6 +8,15 @@
   display: none;
 }
 
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
+.section {
+  transition: transform 1s, opacity 1s;
+}
+
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -1099,9 +1108,10 @@ body {
   position: relative;
   display: flex;
   width: 100%;
+  height: 75rem;
   justify-content: center;
   align-items: center;
-  background-color: #f3f3f3;
+  background-color: #fbfbfb;
 }
 
 .display-img {
@@ -1109,11 +1119,12 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: 100%;
   /* margin: 20px 0; */
 }
 
 .display-img img {
-  width: 100%;
+  width: 90%;
 }
 
 .display-content-1 {
@@ -1126,7 +1137,7 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 100;
-  background-color: #f6f6f6;
+  background-color: #fbfbfb;
 }
 
 .display-content-container {
@@ -1195,6 +1206,14 @@ body {
     width: 70%;
     height: 10rem;
     margin: 50px 5px;
+  }
+
+  .image__about_display {
+    height: 35rem;
+  }
+  
+  .display-img img {
+    width: 100%;
   }
 }
 
@@ -1296,7 +1315,7 @@ body {
 }
 /* __________________________________________________________- */
 .keyboard_image {
-  display: none;
+  display: flex;
   justify-content: flex-start;
   align-items: center;
   width: 100%;
@@ -1324,7 +1343,7 @@ body {
 }
 
 .about__keyboard-container {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
@@ -1415,6 +1434,7 @@ body {
 
   .keyboard_image .keyboard {
     height: 100%;
+    /* transform: translate(-50%, -30%); */
     object-fit: cover;
   }
 
@@ -1576,4 +1596,207 @@ body {
 
 .more_connectivity_details p span {
   color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.section--8 {
+  display: flex;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin: 50px 0;
+}
+
+.AR__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 68rem;
+  /* gap: 20px; */
+  background-color: #fbfbfb;
+  margin: auto;
+}
+
+.AR__inner-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+  max-width: 90%;
+  height: 100%;
+  margin: auto;
+  /* border: 1px solid #000; */
+}
+
+.ar-use-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ar_tips-content {
+  width: 100%;
+}
+
+.ar_tips-content img {
+  width: 12%;
+  margin: 20px 0;
+}
+
+.ar_tips-content h1 {
+  font-size: 4.7rem;
+  line-height: 1;
+  padding-bottom: 20px;
+  color: #000;
+}
+
+.ar_tips-content p {
+  font-size: 1.8rem;
+  color: #000;
+}
+
+.ar-use-container, .ar__phone_image_container {
+  width: 45%;
+  height: 100%;
+  /* border: 1px solid #000; */
+}
+
+
+
+
+
+
+.ar__phone_color-selection {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 0;
+  /* background-color: #2a2929; */
+}
+
+.ar__phone_color-section-inner-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.ar__phone__color_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 450px) {
+  .ar__phone_color-section-inner-container {
+    width: 70%;
+  }
+}
+
+.ar__phone__color_container .ar-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 3px;
+  margin-bottom: 5px;
+}
+.ar__phone__color_container .ar-btn.active {
+  border: 2px solid #2360e2;
+}
+
+.ar__color-btn {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.ar__midnight-btn {
+  background-color: #2a2a3a;
+}
+
+.ar__starlight-btn {
+  background-color: #f5e0c0;
+}
+
+.ar__spacegray-btn {
+  background-color: #737780;
+}
+
+.ar__silver-btn {
+  background-color: silver;
+}
+
+.ar__color_container .ar__color-name {
+  visibility: hidden;
+}
+
+.ar__color_container .ar__color-name.active {
+  visibility: visible;
+}
+
+
+.ar__phone_image_container {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.ar__phone_image_container img {
+  width: 93%;
+}
+
+@media (max-width: 450px) {
+  .AR__container {
+    height: 70rem;
+  }
+
+  .AR__inner-container {
+    width: 80%;
+    height: 100%;
+  }
+  
+  .ar-use-container, .ar__phone_image_container {
+    width: 100%;
+    height: 50%;
+  }
+
+  .ar_tips-content img {
+    width: 8%;
+    margin: 10px 0;
+  }
+  
+  .ar_tips-content h1 {
+    font-size: 3rem;
+    line-height: 1;
+    padding-bottom: 15px;
+  }
+  
+  .ar_tips-content p {
+    font-size: 1.5rem;
+    color: #000;
+  }
+
+  .ar__phone_image_container img {
+    width: 70%;
+  }
 }
