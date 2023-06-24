@@ -1800,3 +1800,157 @@ body {
     width: 70%;
   }
 }
+
+
+.section--9 {
+  display: flex;
+  width: 100%;
+}
+
+.accessories__section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 60rem;
+  margin: auto;
+}
+
+.mac__aceessory {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 49%;
+  height: 100%;
+  background: #fbfbfb;
+}
+
+.accesory__heading {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 15px;
+  /* border: 1px solid red; */
+}
+
+.accesory__heading p {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #000;
+
+}
+
+.accesory__heading h1 {
+  font-size: 5rem;
+  text-align: center;
+  line-height: 1;
+  color: #000;
+  padding-bottom: 10px;
+}
+
+.accesory__heading button {
+  width: 70px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #3974f3;
+  font-size: 1.5rem;
+}
+
+.accesory__heading button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.mac__accessory-image {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px 0;
+}
+
+.mac__accessory-image img {
+  width: 100%;
+}
+
+
+.about__macMaterial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 49%;
+  height: 100%;
+  background: #fbfbfb;
+  padding: 90px;
+}
+
+.about__macMaterial img {
+  width: 8%;
+  margin: 15px;
+}
+
+.about__macMaterial h1 {
+  font-size: 4.5rem;
+  line-height: 1;
+  text-align: center;
+  color: #000;
+  padding-bottom: 15px;
+}
+
+.about__macMaterial h1 span {
+  background-color: rgb(55, 239, 13);
+  border-radius: 90px 70px 40px 30px;
+  padding: 0 5px;
+}
+
+.about__macMaterial p {
+  font-size: 1.9rem;
+  color: #000;
+  line-height: 1.3;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.about__macMaterial a {
+  color: #2360e2;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+@media (max-width: 450px) {
+  .accessories__section {
+    height: 50rem;
+    gap: 20px;
+  }
+  
+
+  .mac__aceessory {
+    width: 100%;
+  }
+
+  .about__macMaterial {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .about__macMaterial h1 {
+    font-size: 4rem;
+  }
+
+  .about__macMaterial p {
+    font-size: 1.5rem;
+  }
+
+  .about__macMaterial a {
+    font-size: 1.5rem;
+  }
+}
