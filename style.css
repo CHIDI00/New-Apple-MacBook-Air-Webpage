@@ -98,6 +98,7 @@ body {
 }
 
 .btn__menu {
+  position: relative;
   width: 15px;
   height: 15px;
   display: none;
@@ -116,6 +117,7 @@ body {
   margin: 3px;
   border-radius: 10px;
 }
+
 
 .btn__search, .btn__store  {
   background: transparent;
@@ -718,10 +720,10 @@ body {
   border-radius: 50%;
   padding: 3px;
   margin-bottom: 5px;
-}
-.color_container .btn.active {
   border: 2px solid #2360e2;
 }
+/* .btn.active1 {
+} */
 
 .color-btn {
   width: 100%;
@@ -748,12 +750,12 @@ body {
 }
 
 .color_container .color-name {
-  visibility: hidden;
-}
-
-.color_container .color-name.active {
   visibility: visible;
 }
+
+/* .color-name.active2 {
+  visibility: visible;
+} */
 
 .lastText-section-2 {
   display: flex;
@@ -1613,7 +1615,7 @@ body {
   display: flex;
   width: 100%;
   font-family: 'Roboto', sans-serif;
-  margin: 50px 0;
+  margin: 40px 0;
 }
 
 .AR__container {
@@ -1717,9 +1719,9 @@ body {
   border-radius: 50%;
   padding: 3px;
   margin-bottom: 5px;
+  border: 2px solid #2360e2;
 }
 .ar__phone__color_container .ar-btn.active {
-  border: 2px solid #2360e2;
 }
 
 .ar__color-btn {
@@ -1805,6 +1807,8 @@ body {
 .section--9 {
   display: flex;
   width: 100%;
+  font-family: 'Roboto', sans-serif;
+  /* margin: 0 0 100px 0; */
 }
 
 .accessories__section {
@@ -1890,7 +1894,7 @@ body {
   width: 49%;
   height: 100%;
   background: #fbfbfb;
-  padding: 90px;
+  padding: 100px;
 }
 
 .about__macMaterial img {
@@ -1907,7 +1911,7 @@ body {
 }
 
 .about__macMaterial h1 span {
-  background-color: rgb(55, 239, 13);
+  background-color: rgb(36, 171, 5);
   border-radius: 90px 70px 40px 30px;
   padding: 0 5px;
 }
@@ -1928,17 +1932,18 @@ body {
 
 @media (max-width: 450px) {
   .accessories__section {
-    height: 50rem;
+    height: 100rem;
     gap: 20px;
   }
-  
 
   .mac__aceessory {
     width: 100%;
+    height: 49rem;
   }
 
   .about__macMaterial {
     width: 100%;
+    height: 49rem;
     padding: 0 20px;
   }
 
@@ -1953,4 +1958,146 @@ body {
   .about__macMaterial a {
     font-size: 1.5rem;
   }
+}
+
+/* .footer-section {
+  padding: 100px;
+} */
+
+
+
+
+
+.howTo-section {
+  width: 100%;
+  display: flex;
+  padding: 50px;
+  margin: 30px 0 0 0;
+  padding: 20px;
+  background: #fbfbfb;
+}
+
+.howTo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 50px;
+  /* padding: 20px; */
+  margin: auto;
+}
+
+.payment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  max-width: 70%;
+  padding: 20px;
+}
+
+.payment h1 {
+  font-size: 2rem;
+}
+.payment p {
+  font-size: 1.7rem;
+  line-height: 1;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.payment a {
+  font-size: 1.5rem;
+  color: #2360e2;
+  text-decoration: none;
+}
+
+
+
+
+/* Footer section */
+
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  background: #fbfbfb;
+}
+
+.apple_links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 1000px;
+  max-width: 90%;
+  margin: auto;
+}
+
+.apple_links .text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.apple_links .text img {
+  /* width: 8%; */
+  width: 2%;
+}
+
+.apple_links .text a {
+  font-size: 1.2rem;
+  padding: 0 8px;
+  text-decoration: none;
+  color: #050505;
+}
+
+.apple_links .text p {
+  font-size: 1.2rem;
+  padding: 0 8px;
+  color: #050505;
+}
+
+@media (max-width: 450px) {
+  .apple_links .text img {
+    width: 5%;
+  }
+}
+
+.footer-text1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%; 
+  padding: 20px 0;
+  border-bottom: 1px solid #e2dcdc;
+}
+
+.footer-text1 p {
+  font-size: 1.3rem;
+  /* padding: 0 8px; */
+  color: #a49c9c;
+}
+
+.footer-text1 p a{
+  color:#2360e2
+}
+
+.footer-text2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+.footer-text2 p {
+  font-size: 1.3rem;
 }
